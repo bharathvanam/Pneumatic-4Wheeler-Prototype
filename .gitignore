@@ -1,0 +1,54 @@
+# -----------------------------
+# System files (OS-specific)
+# -----------------------------
+.DS_Store
+Thumbs.db
+
+# -----------------------------
+# Temporary / backup files
+# -----------------------------
+*.log
+*.tmp
+*.bak
+*.swp
+
+# -----------------------------
+# Compiled binaries
+# -----------------------------
+*.exe
+*.dll
+*.out
+
+# -----------------------------
+# Python cache & virtual env
+# -----------------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env/
+venv/
+
+# -----------------------------
+# CAD files (Fusion 360, AutoCAD backups)
+# -----------------------------
+*.f3d1
+*.bak1
+*.autosave
+*.dwg~
+*.dwl
+*.dwl2
+
+# -----------------------------
+# Simulation temporary files (Ansys, etc.)
+# -----------------------------
+*.simlog
+*.simtmp
+*.err
+*.lock
+
+# -----------------------------
+# Reports / large exports (optional)
+# -----------------------------
+*.pdf~
+*.docx~
